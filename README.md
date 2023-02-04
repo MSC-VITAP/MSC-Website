@@ -1,8 +1,7 @@
 # MSC-Website
 ###
 ## **Most Respectable coders**,
-###                         This is the public repository where you'll be pushing your codes and other data required for the website development and maintainance. 
-### Everyday write few pieces of codes and push into this repository. I will look into the codes you push and this will be maintained as our work reports. Make sure you complete all the works within the given time constraints.
+####                         This is the public repository where you'll be pushing your codes and other data required for the website development and maintainance. Everyday write few pieces of codes and push into this repository. I will look into the codes you push and this will be maintained as our work reports. Make sure you complete all the works within the given time constraints.
 ###
 ###
 ## Some basic Git commands are:
@@ -35,4 +34,4 @@
 - [ ] Resolve conflicts
 - [ ] Publish the Page
 
-## All the Very Best Team. Happy Coding Time!
+### All the Very Best Team. Happy Coding Time!
