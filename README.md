@@ -7,10 +7,10 @@
 ###
 ## Some basic Git commands are:
 ```
-+git status
-+git add --all
-+git commit -m "add the title for the commit. Eg: Added navigation bar, added page animation etc"
-+git push -u origin main
+* git status
+* git add --all
+* git commit -m "add the title for the commit. Eg: Added navigation bar, added page animation etc"
+* git push -u origin main
 
 ```
 ###
