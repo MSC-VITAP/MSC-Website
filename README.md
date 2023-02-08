@@ -174,7 +174,7 @@ https://www.contributor-covenant.org/translations.
 | ------- | ------------------ |
 | 1.0.0   | :white_check_mark: |
 
-## How to rasie a Feature Update Request ?
+## How to raise a Feature Update Request ?
 ---
 name: Feature request
 about: Suggest an idea for this project
