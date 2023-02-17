@@ -7,17 +7,17 @@ function Home() {
 	return (
 		<React.Fragment>
 			{/* quick navigator */}
-			<div className='fixed float-left left-4 md:left-7 lg:left-14 top-40 md:top-20 lg:top-44'>
+			<div className='fixed float-right right-4 md:right-7 lg:right-14 top-40 md:top-20 lg:top-44'>
 				<a href='#Hero'>
 					<svg width="45" height="45" viewBox="0 0 45 45" fill="none"
 						xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_d_786_91)">
 							<circle cx="22.5" cy="18.5" r="18.5" fill="#1B2A41" />
-							<text x="16.5" y="24.5" font-family="Verdana" fill='white'>H</text>
+							<text x="16.5" y="24.5" fontFamily="Verdana" fill='white'>H</text>
 						</g>
 						<defs>
-							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+								<feFlood floodOpacity="0" result="BackgroundImageFix" />
 								<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 								<feOffset dy="4" />
 								<feGaussianBlur stdDeviation="2" />
@@ -34,11 +34,11 @@ function Home() {
 						xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_d_786_91)">
 							<circle cx="22.5" cy="18.5" r="18.5" fill="#CCC9DC" />
-							<text x="16.5" y="24.5" font-family="Verdana" fill='#0C1821'>A</text>
+							<text x="16.5" y="24.5" fontFamily="Verdana" fill='#0C1821'>A</text>
 						</g>
 						<defs>
-							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+								<feFlood floodOpacity="0" result="BackgroundImageFix" />
 								<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 								<feOffset dy="4" />
 								<feGaussianBlur stdDeviation="2" />
@@ -55,11 +55,11 @@ function Home() {
 						xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_d_786_91)">
 							<circle cx="22.5" cy="18.5" r="18.5" fill="#CCC9DC" />
-							<text x="16.5" y="24.5" font-family="Verdana" fill='#0C1821'>E</text>
+							<text x="16.5" y="24.5" fontFamily="Verdana" fill='#0C1821'>E</text>
 						</g>
 						<defs>
-							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+								<feFlood floodOpacity="0" result="BackgroundImageFix" />
 								<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 								<feOffset dy="4" />
 								<feGaussianBlur stdDeviation="2" />
@@ -76,11 +76,11 @@ function Home() {
 						xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_d_786_91)">
 							<circle cx="22.5" cy="18.5" r="18.5" fill="#CCC9DC" />
-							<text x="16.5" y="24.5" font-family="Verdana" fill='#0C1821'>A</text>
+							<text x="16.5" y="24.5" fontFamily="Verdana" fill='#0C1821'>A</text>
 						</g>
 						<defs>
-							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+								<feFlood floodOpacity="0" result="BackgroundImageFix" />
 								<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 								<feOffset dy="4" />
 								<feGaussianBlur stdDeviation="2" />
@@ -97,11 +97,11 @@ function Home() {
 						xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_d_786_91)">
 							<circle cx="22.5" cy="18.5" r="18.5" fill="#CCC9DC" />
-							<text x="16.5" y="24.5" font-family="Verdana" fill='#0C1821'>C</text>
+							<text x="16.5" y="24.5" fontFamily="Verdana" fill='#0C1821'>C</text>
 						</g>
 						<defs>
-							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+								<feFlood floodOpacity="0" result="BackgroundImageFix" />
 								<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 								<feOffset dy="4" />
 								<feGaussianBlur stdDeviation="2" />
@@ -118,11 +118,11 @@ function Home() {
 						xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_d_786_91)">
 							<circle cx="22.5" cy="18.5" r="18.5" fill="#CCC9DC" />
-							<text x="16.5" y="24.5" font-family="Verdana" fill='#0C1821'>F</text>
+							<text x="16.5" y="24.5" fontFamily="Verdana" fill='#0C1821'>F</text>
 						</g>
 						<defs>
-							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+							<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+								<feFlood floodOpacity="0" result="BackgroundImageFix" />
 								<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
 								<feOffset dy="4" />
 								<feGaussianBlur stdDeviation="2" />

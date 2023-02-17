@@ -5,9 +5,12 @@ import useScroll from '../hooks/useScroll'
 
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
+  function toggleNav() {
+    document.getElementById('togglenav').classList.toggle('hidden');
+  }
 
   return (
-    <div className='nav-sticky nav' >
+    <div className='nav-sticky' >
       <nav className="shadow flex justify-between">
         <img className='h-14 md:h-16 lg:h-20 ml-6 md:ml-20 lg:ml-48 m-2 justify-start' src={logo} />
         <ul className="hidden mr-8 md:mr-20 lg:mr-48 container md:flex items-center justify-end font-bold space-x-5">
@@ -21,8 +24,15 @@ function NavBar() {
             <Link to='/members/login' >Login</Link>
           </li>
         </ul>
-        <div className='w-60 h-full shadow-md absolute'>
-          <ul className="items-center justify-end font-bold text-center">
+
+        <div id='togglenav' className='nav hidden absolute w-60 h-screen shadow-xl'>
+          <div className='m-4 text-center'>
+            <img className='h-20 mx-auto' src={logo} />
+            <h1 className='work-sans justify-center text-[30px] text-white'>MSC Chapter</h1>
+            <h1 className='work-sans justify-center text-[22px] text-[#CCC9DC] '>VIT AP</h1>
+          </div>
+          <hr />
+          <ul className="pt-2 items-center justify-end font-bold text-[18px] text-center space-y-2">
             <li className="text-[#0C1821] hover:text-white dark:text-[#CCC9DC] mx-1.5">
               <Link to='/' >Home</Link>
             </li>
@@ -35,8 +45,8 @@ function NavBar() {
           </ul>
         </div>
         <button
-          className="mr-8 flex items-center md:hidden px-2 rounded-md outline-none focus:border-gray-400 focus:border"
-          onClick={() => setNavbar(!navbar)}
+          className="mr-8 flex items-center md:hidden px-2 rounded-md outline-none"
+          onClick={() => { setNavbar(!navbar); toggleNav(); }}
         >
           {navbar ? (
             <svg
