@@ -11,14 +11,16 @@ import Underconstruction from './routes/Underconstruction';
 function App() {
   return (
     <BrowserRouter>
-      <NavBar/>
-      <Routes>
-        <Route path='/' index element={<Home />} />
-        <Route path='/pageunderconstruction' element={<Underconstruction />} />
-        <Route path='/members/login' element={<Memberlogin />} />
-        <Route path='/404' element={<Notfound />} />
-        <Route path='*' element={<Navigate to='/404' />} />
-      </Routes>
+      <div className='bg-[#1B2A41]'>
+        <NavBar />
+        <Routes>
+          <Route path='/' index element={<Home />} />
+          <Route path='/pageunderconstruction' element={<Underconstruction />} />
+          <Route path='/members/login' element={<Memberlogin />} />
+          <Route path='/404' element={<Notfound />} />
+          <Route path='*' element={<Navigate to='/404' />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   )
 }
