@@ -26,7 +26,9 @@
     width: 100%;
     transition-timing-function: ease-in;
     transition: all 0.5;
+}
 
+.glass-effect {
     background: rgba(12, 24, 33, 0.7);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(3.5px);
@@ -46,5 +48,20 @@
     font-style: normal;
     align-items: center;
     letter-spacing: -0.02em;
-    display: flex;
 }
+
+.heading-bold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    opacity: 0.9;
+    -webkit-text-stroke: 5px #CCC9DC;
+    /* light white */
+    text-shadow: 0px 4px 4px #000000;
+}
+

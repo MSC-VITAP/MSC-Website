@@ -25,7 +25,7 @@ function NavBar() {
           </li>
         </ul>
 
-        <div id='togglenav' className='nav hidden absolute w-60 h-screen shadow-xl'>
+        <div id='togglenav' className='glass-effect hidden absolute w-60 h-screen shadow-xl'>
           <div className='m-4 text-center'>
             <img className='h-20 mx-auto' src={logo} />
             <h1 className='work-sans justify-center text-[30px] text-white'>MSC Chapter</h1>
