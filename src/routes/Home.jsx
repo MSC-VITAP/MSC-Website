@@ -1,10 +1,23 @@
 import React from 'react'
+
+
+import Heading from '../components/Heading'
+import LeadTwo from '../components/LeadTwo'
+import Event_head from '../components/Event_head'
+
+
 import bg from '../assets/bg.png'
 import heroimg from '../assets/olleaguesDiscussing.png'
 import aboutbg from '../assets/squigglesColorful.png'
 import thumbup from '../assets/thumbup.svg'
 import pointing from '../assets/pointing.svg'
 import twohands from '../assets/twohands.svg'
+import event1 from '../assets/abstract.png'
+import event2 from '../assets/events.png'
+import event3 from '../assets/people.png'
+import event4 from '../assets/people1.png'
+
+
 
 function Home() {
 	return (
@@ -173,14 +186,8 @@ function Home() {
 				{/*About section*/}
 				<div id='Aboutus' className='p-5 pb-10 md:pb-20'>
 					<div className='mt-5'>
-						<h1 className='h-20 heading-bold text-[46px] lg:text-[86px] '>About Us</h1>
-						<h2
-							style={{
-								fontWeight: 700,
-								fontVariant: 'small-caps',
-								lineHeight: '42px',
-							}}
-							className='text-white work-sans text-center text-[30px] md:text-[32px] lg:text-[36px] '>Who we are and what we do? ^_^</h2>
+						<Heading>About Us</Heading>
+						<LeadTwo >Who we are and what we do? ^_^</LeadTwo>
 					</div>
 					<div
 						className='pt-10 '
@@ -263,8 +270,36 @@ function Home() {
 				</div>
 			</div>
 			{/*Event section*/}
-			<div id='Events'>
-				
+			<div id='Events' className='bg-[#0C1821] pt-10'>
+				<Heading>Events</Heading>
+				<LeadTwo >Explore the events which we have done (●'◡'●)</LeadTwo>
+
+				<div className='mt-8'>
+					<div className='px-10 space-x-10 flex justify-items-stretch'>
+						<div className='w-[50%] h-[300px] mb-5'
+							style={{
+								backgroundImage: `url(${event1})`,
+								backgroundSize: 'cover',
+								backgroundRepeat: 'no-repeat',
+							}}
+						>
+							<Event_head className='mt-[150px] ml-[40px] ' >EVENT - 1</Event_head>
+						</div>
+						<div className='w-[50%] h-[300px] mb-5'
+							style={{
+								backgroundImage: `url(${event2})`,
+								backgroundSize: 'cover',
+								backgroundRepeat: 'no-repeat',
+							}}
+						>
+							<Event_head className='mt-[150px] ml-[40px] ' >EVENT - 2</Event_head>
+
+						</div>
+					</div>
+					<div>
+
+					</div>
+				</div>
 			</div>
 			{/*Our team section*/}
 			<div id='Team'>
