@@ -4,6 +4,7 @@ import React from 'react'
 import Heading from '../components/Heading'
 import LeadTwo from '../components/LeadTwo'
 import Event_head from '../components/Event_head'
+import Event_date from '../components/Event_date'
 
 
 import bg from '../assets/bg.png'
@@ -15,7 +16,6 @@ import twohands from '../assets/twohands.svg'
 import event1 from '../assets/abstract.png'
 import event2 from '../assets/events.png'
 import event3 from '../assets/people.png'
-import event4 from '../assets/people1.png'
 
 
 
@@ -199,7 +199,7 @@ function Home() {
 							}}
 							className='work-sans md:text-[18px] lg:text-[20px] mx-auto md:w-[700px] text-[#CCC9DC] '
 						>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at gravida quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras accumsan arcu sit amet urna pretium maximus. Duis dignissim ipsum risus, sed consectetur diam elementum eu. Pellentesque finibus nunc et urna aliquam elementum. Nam ex lectus, accumsan et ex hendrerit, vehicula ultrices diam. Donec porttitor a tortor at blandit. Quisque eget erat ut turpis rutrum luctus. Proin eget sem sit amet erat hendrerit tristique. Nam at leo in tellus lobortis iaculis nec eget enim. Curabitur suscipit lacus quis ante maximus, sit amet commodo sem condimentum.</p>
-						<div className='mt-20 md:mt-40 space-y-4'>
+						<div className='mt-20 md:mt-24 lg:mt-32 space-y-4'>
 							<div className='md:ml-40 md:flex justify-start'>
 								<div className='text-white md:w-[360px] '>
 									<h1
@@ -270,22 +270,23 @@ function Home() {
 				</div>
 			</div>
 			{/*Event section*/}
-			<div id='Events' className='bg-[#0C1821] pt-10'>
-				<Heading>Events</Heading>
+			<div id='Events' className='bg-[#0C1821] pt-5 pb-5 p-5'>
+				<Heading >Events</Heading>
 				<LeadTwo >Explore the events which we have done (●'◡'●)</LeadTwo>
 
-				<div className='mt-8'>
-					<div className='px-10 space-x-10 flex justify-items-stretch'>
-						<div className='w-[50%] h-[300px] mb-5'
+				<div className='mt-14 mb-8'>
+					<div className='md:px-40 md:flex md:justify-items-stretch'>
+						<div className='mx-auto w-[90%] md:w-[70%] h-[300px] md:mb-5 rounded-xl event-bg-box'
 							style={{
 								backgroundImage: `url(${event1})`,
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 							}}
 						>
-							<Event_head className='mt-[150px] ml-[40px] ' >EVENT - 1</Event_head>
+							<Event_head className='md:mt-[150px] md:ml-[40px] ' >EVENT - 1</Event_head>
+							<Event_date className='md:pl-[40px] ' >21 JAN 2023</Event_date>
 						</div>
-						<div className='w-[50%] h-[300px] mb-5'
+						<div className='mx-auto w-[90%] md:-ml-20 md:mt-40 md:w-[60%] h-[300px] md:mb-5 rounded-xl event-bg-box'
 							style={{
 								backgroundImage: `url(${event2})`,
 								backgroundSize: 'cover',
@@ -293,21 +294,164 @@ function Home() {
 							}}
 						>
 							<Event_head className='mt-[150px] ml-[40px] ' >EVENT - 2</Event_head>
+							<Event_date className='pl-[40px] ' >21 JAN 2023</Event_date>
+						</div>
+						<div className='mx-auto w-[90%] md:-ml-20 md:mt-80 md:w-[50%] h-[300px] md:mb-5 rounded-xl event-bg-box'
+							style={{
+								backgroundImage: `url(${event3})`,
+								backgroundSize: 'cover',
+								backgroundRepeat: 'no-repeat',
+							}}
+						>
+							<Event_head className='mt-[150px] ml-[40px] ' >EVENT - 3</Event_head>
+							<Event_date className='pl-[40px] ' >21 JAN 2023</Event_date>
 
 						</div>
-					</div>
-					<div>
-
 					</div>
 				</div>
 			</div>
 			{/*Our team section*/}
-			<div id='Team'>
+			<div id='Team' className='pt-10 bg-gradient-to-b from-[#1B2A41] to-black '>
+				<Heading >OUR TEAM</Heading>
+				<LeadTwo >Meet the people behind the work (⌐■_■) </LeadTwo>
+				<div className='mt-6 md:mt-16'>
 
+					{/* Admin team */}
+					<div className='md:flex md:justify-between'>
+						<h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Admin team</h1>
+						<div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-20">
+							<div className="flex flex-nowrap md:mx-8 space-x-8" >
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					{/* Team leads */}
+					<div className='md:flex md:justify-between'>
+						<h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Team leads</h1>
+						<div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar">
+							<div className="flex flex-nowrap md:mx-8 space-x-8" >
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					{/* Team members */}
+					<div className='md:flex md:justify-between'>
+						<h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Team Members</h1>
+						<div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-40">
+							<div className="flex flex-nowrap md:mx-8 space-x-8" >
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			{/*Club coordinator section*/}
-			<div id='Coordinator'>
+			<div id='Coordinator'
+				style={{
 
+				}}
+				className="py-10" >
+				<div className='rounded-full w-[250px] h-[250px] bg-[#191919] mx-auto'>
+					<img />
+				</div>
+				<div>
+					<h1 className='text-center work-sans text-white text-[48px] '
+						style={{
+							textTransform: 'uppercase',
+							fontWeight: 700,
+						}}>
+						Club Coordinator
+					</h1>
+					<div className='mt-2'>
+						<p className='text-center work-sans text-[#CCC9DC] '
+							style={{
+								fontWeight: 600,
+								fontSize: '22px',
+							}}
+						>
+							Dr. S Sudheer Mangalampalli
+						</p>
+						<p className='text-center work-sans text-[#CCC9DC] '
+							style={{
+								fontWeight: 600,
+								fontSize: '22px',
+							}}
+						>
+							SCOPE
+						</p>
+					</div>
+				</div>
 			</div>
 
 		</React.Fragment>

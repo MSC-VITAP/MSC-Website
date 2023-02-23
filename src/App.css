@@ -66,3 +66,20 @@
     text-shadow: 0px 4px 4px #000000;
 }
 
+.team-head {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #CCC9DC;
+}
+
+.event-bg-box {
+    border-radius: 0px;
+    box-shadow: #1B2A41 -5px -5px 0px 2px,
+        #324A5F -10px -10px 0px 4px,
+        #CCC9DC -15px -15px 0px 5px,
+        #324A5F -10px -10px 0px 4px,
+        #1B2A41 -0 0 0 0;
+}
