@@ -219,10 +219,10 @@ function Home() {
 										className='text-[#CCC9DC] md:text-[18px] lg:text-[20px]'
 									>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis quis arcu et auctor. Nulla nec feugiat enim, hendrerit gravida ligula.</p>
 								</div>
-								<img className='mt-6' src={thumbup} />
+								<img className='mt-6 mx-auto' src={thumbup} />
 							</div>
 							<div className='md:mr-40 md:flex justify-end'>
-								<img className='mt-6' src={pointing} />
+								<img className='mt-6 mx-auto' src={pointing} />
 								<div className='text-white md:w-[360px] '>
 									<h1
 										style={{
@@ -261,7 +261,7 @@ function Home() {
 										className='text-[#CCC9DC] md:text-[18px] lg:text-[20px]'
 									>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis quis arcu et auctor. Nulla nec feugiat enim, hendrerit gravida ligula.</p>
 								</div>
-								<img className='mt-6' src={twohands} />
+								<img className='mt-6 mx-auto' src={twohands} />
 							</div>
 						</div>
 					</div>
@@ -322,27 +322,27 @@ function Home() {
 						<div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-20">
 							<div className="flex flex-nowrap md:mx-8 space-x-8" >
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
-									</section>
-								</div>
-								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
-									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 							</div>
@@ -355,27 +355,27 @@ function Home() {
 						<div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar">
 							<div className="flex flex-nowrap md:mx-8 space-x-8" >
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
-									</section>
-								</div>
-								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
-									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 							</div>
@@ -388,27 +388,27 @@ function Home() {
 						<div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-40">
 							<div className="flex flex-nowrap md:mx-8 space-x-8" >
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
-									</section>
-								</div>
-								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
-									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 								<div className='m-0 inline-block'>
-									<section className='rounded-xl w-[280px] h-[360px] bg-black'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
 									</section>
-									<section className='-mt-10 mx-auto rounded-xl w-[260px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
+									</section>
+								</div>
+								<div className='m-0 inline-block'>
+									<section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'>
+									</section>
+									<section className='-mt-10 mx-auto rounded-xl w-[220px] h-[70px] bg-gradient-to-b from-[#1B2A41] to-black border border-[#324A5F] '>
 									</section>
 								</div>
 							</div>
@@ -422,11 +422,11 @@ function Home() {
 
 				}}
 				className="py-10" >
-				<div className='rounded-full w-[250px] h-[250px] bg-[#191919] mx-auto'>
+				<div className='rounded-full w-[220px] h-[220px] md:w-[250px] md:h-[250px] bg-[#191919] mx-auto'>
 					<img />
 				</div>
 				<div>
-					<h1 className='text-center work-sans text-white text-[48px] '
+					<h1 className='text-center work-sans text-white text-[32px] md:text-[42px] lg:text-[48px] '
 						style={{
 							textTransform: 'uppercase',
 							fontWeight: 700,
@@ -434,18 +434,16 @@ function Home() {
 						Club Coordinator
 					</h1>
 					<div className='mt-2'>
-						<p className='text-center work-sans text-[#CCC9DC] '
+						<p className='text-center work-sans text-[#CCC9DC] md:text-[22px] '
 							style={{
 								fontWeight: 600,
-								fontSize: '22px',
 							}}
 						>
 							Dr. S Sudheer Mangalampalli
 						</p>
-						<p className='text-center work-sans text-[#CCC9DC] '
+						<p className='text-center work-sans text-[#CCC9DC] md:text-[22px]'
 							style={{
 								fontWeight: 600,
-								fontSize: '22px',
 							}}
 						>
 							SCOPE

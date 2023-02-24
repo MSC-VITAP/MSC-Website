@@ -5,9 +5,8 @@ function Event_date(props) {
         <h2
             style={{
                 fontWeight: 600,
-                fontSize: '32px'
             }}
-            className={`${props.className} work-sans text-black bg-[#CCC9DC]`} >{props.children} </h2>
+            className={`${props.className} text-[26px] md:text-[29px] lg:text-[32px] work-sans text-black bg-[#CCC9DC]`} >{props.children} </h2>
     )
 }
 
