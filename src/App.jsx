@@ -13,7 +13,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='bg-[#1B2A41]'>
+      <div className='bg-black'>
         <NavBar />
         <Routes>
           <Route path='/' index element={<Home />} />
@@ -22,8 +22,8 @@ function App() {
           <Route path='/404' element={<Notfound />} />
           <Route path='*' element={<Navigate to='/404' />} />
         </Routes>
+        <Footer />
       </div>
-      <Footer />
     </BrowserRouter>
   )
 }

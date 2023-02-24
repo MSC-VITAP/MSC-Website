@@ -29,12 +29,19 @@
 }
 
 .glass-effect {
-    background: rgba(12, 24, 33, 0.7);
+    background: rgba(16, 31, 43, 0.86);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
     border-radius: 0 10px 10px 0;
     border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.md-glass-effect {
+    background: rgba(16, 31, 43, 0.86, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
 }
 
 .nav-sticky {

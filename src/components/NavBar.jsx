@@ -10,7 +10,7 @@ function NavBar() {
   }
 
   return (
-    <div className='nav-sticky' >
+    <div className='nav-sticky md-glass-effect' >
       <nav className="shadow flex justify-between">
         <img className='h-14 md:h-16 lg:h-20 ml-6 md:ml-20 lg:ml-48 m-2 justify-start' src={logo} />
         <ul className="hidden mr-8 md:mr-20 lg:mr-48 container md:flex items-center justify-end font-bold space-x-5">
