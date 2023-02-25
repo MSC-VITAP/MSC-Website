@@ -12,7 +12,8 @@ function NavBar() {
   return (
     <div className='nav-sticky md-glass-effect' >
       <nav className="shadow flex justify-between">
-        <img className='h-14 md:h-16 lg:h-20 ml-6 md:ml-20 lg:ml-48 m-2 justify-start' src={logo} />
+        <img 
+        className='h-14 md:h-16 lg:h-20 ml-6 md:ml-20 lg:ml-48 m-2 justify-start' src={logo}/>
         <ul className="hidden mr-8 md:mr-20 lg:mr-48 container md:flex items-center justify-end font-bold space-x-5">
           <li className="text-[#0C1821] hover:text-white dark:text-[#CCC9DC] mx-1.5">
             <Link to='/' >Home</Link>
