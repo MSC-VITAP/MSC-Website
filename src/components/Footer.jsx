@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import LeadTwo from '../components/LeadTwo'
 
@@ -22,7 +23,7 @@ function Footer() {
 										name="name"
 										id="name"
 										placeholder="Full Name"
-										className="work-sans rounded-md border border-white bg-[#CCC9DC] py-3 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
+										className="work-sans rounded-md border border-white bg-[#CCC9DC] py-2 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
 									/>
 								</div>
 								<div>
@@ -34,7 +35,7 @@ function Footer() {
 										name="email"
 										id="email"
 										placeholder="Email"
-										className="work-sans rounded-md border border-white bg-[#CCC9DC] py-3 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
+										className="work-sans rounded-md border border-white bg-[#CCC9DC] py-2 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
 									/>
 								</div>
 								<div>
@@ -46,7 +47,7 @@ function Footer() {
 										name="message"
 										id="message"
 										placeholder="Type your message"
-										className="w-[65%] md:w-[80%] work-sans rounded-md border border-white bg-[#CCC9DC] py-3 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
+										className="w-[65%] md:w-[80%] work-sans rounded-md border border-white bg-[#CCC9DC] py-2 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
 									></textarea>
 								</div>
 								<div>
@@ -54,7 +55,7 @@ function Footer() {
 										<button
 											className="hover:shadow-form rounded-2xl bg-[#1B2A41] py-2 px-5 text-base font-semibold text-white outline-none"
 										>
-											Submit
+											<Link to='/pageunderconstruction' >Submit</Link>
 										</button>
 									</div>
 								</div>
