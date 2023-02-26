@@ -7,15 +7,17 @@ import Event_head from '../components/Event_head'
 import Event_date from '../components/Event_date'
 
 
-import bg from '../assets/bg.png'
-import heroimg from '../assets/olleaguesDiscussing.png'
-import aboutbg from '../assets/squigglesColorful.png'
-import thumbup from '../assets/thumbup.svg'
-import pointing from '../assets/pointing.svg'
-import twohands from '../assets/twohands.svg'
-import event1 from '../assets/abstract.png'
-import event2 from '../assets/events.png'
-import event3 from '../assets/people.png'
+import bg from '../assets/bg/bg.png'
+import heroimg from '../assets/bg/olleaguesDiscussing.png'
+import aboutbg from '../assets/bg/squigglesColorful.png'
+
+import thumbup from '../assets/svg/thumbup.svg'
+import pointing from '../assets/svg/pointing.svg'
+import twohands from '../assets/svg/twohands.svg'
+
+import event1 from '../assets/events/abstract.png'
+import event2 from '../assets/events/events.png'
+import event3 from '../assets/events/people.png'
 
 
 
@@ -73,27 +75,6 @@ function Home() {
 							<g filter="url(#filter0_d_786_91)">
 								<circle cx="22.5" cy="18.5" r="18.5" fill="#CCC9DC" />
 								<text x="16.5" y="24.5" fontFamily="Verdana" fill='#0C1821'>E</text>
-							</g>
-							<defs>
-								<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-									<feFlood floodOpacity="0" result="BackgroundImageFix" />
-									<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-									<feOffset dy="4" />
-									<feGaussianBlur stdDeviation="2" />
-									<feComposite in2="hardAlpha" operator="out" />
-									<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-									<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_786_91" />
-									<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_786_91" result="shape" />
-								</filter>
-							</defs>
-						</svg>
-					</a>
-					<a href='#Team'>
-						<svg width="45" height="45" viewBox="0 0 45 45" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<g filter="url(#filter0_d_786_91)">
-								<circle cx="22.5" cy="18.5" r="18.5" fill="#CCC9DC" />
-								<text x="16.5" y="24.5" fontFamily="Verdana" fill='#0C1821'>T</text>
 							</g>
 							<defs>
 								<filter id="filter0_d_786_91" x="0" y="0" width="45" height="45" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
@@ -186,7 +167,7 @@ function Home() {
 						</div>
 					</div>
 					{/*About section*/}
-					<div id='Aboutus' className='p-5 pb-10 md:pb-20'>
+					<div id='Aboutus' className='pt-20 p-5 pb-10 md:pb-20'>
 						<div className='mt-5'>
 							<Heading>About Us</Heading>
 							<LeadTwo >Who we are and what we do? ^_^</LeadTwo>
@@ -273,7 +254,7 @@ function Home() {
 				</div>
 
 				{/*Event section*/}
-				<div id='Events' className='bg-[#0C1821] pt-5 pb-5 p-5'>
+				<div id='Events' className='bg-[#0C1821] pt-24 pb-5 p-5'>
 					<Heading >Events</Heading>
 					<LeadTwo >Explore the events which we have done (●'◡'●)</LeadTwo>
 
@@ -319,7 +300,7 @@ function Home() {
 					style={{
 
 					}}
-					className="	 bg-[#1B2A41] py-10" >
+					className="pt-20 bg-[#1B2A41] py-10" >
 					<div className='rounded-full w-[220px] h-[220px] md:w-[250px] md:h-[250px] bg-[#191919] mx-auto'>
 						<img />
 					</div>

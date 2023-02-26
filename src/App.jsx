@@ -20,7 +20,7 @@ function App() {
           <Route path='/' index element={<Home />} />
           <Route path='/pageunderconstruction' element={<Underconstruction />} />
           <Route path='/team' element={<Team />} />
-          <Route path='/members/login' element={<Memberlogin />} />
+          <Route path='/login' element={<Memberlogin />} />
           <Route path='/404' element={<Notfound />} />
           <Route path='*' element={<Navigate to='/404' />} />
         </Routes>

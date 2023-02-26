@@ -29,7 +29,7 @@
 }
 
 .glass-effect {
-    background: rgba(16, 31, 43, 0.86);
+    background: rgba(0, 0, 0, 0.86);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
@@ -38,8 +38,7 @@
 }
 
 .md-glass-effect {
-    background: rgba(16, 31, 43, 0.86, 0);
-    box-shadow: 0 8px 32px 0 rgba(24, 29, 104, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
 }

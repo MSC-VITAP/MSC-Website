@@ -1,6 +1,8 @@
 import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/logoNoFill.svg'
+
+import logo from '../assets/svg/logoNoFill.svg'
+
 import useScroll from '../hooks/useScroll'
 
 function NavBar() {
@@ -15,7 +17,7 @@ function NavBar() {
         <img 
         className='h-14 md:h-16 lg:h-20 ml-6 md:ml-20 lg:ml-48 m-2 justify-start' src={logo}/>
         <ul className="hidden mr-8 md:mr-20 lg:mr-48 container md:flex items-center justify-end font-bold space-x-5">
-          <li className="text-[#0C1821] hover:text-white dark:text-[#CCC9DC] mx-1.5">
+          <li className="text-[#0C1821] hover:te  xt-white dark:text-[#CCC9DC] mx-1.5">
             <Link to='/' >Home</Link>
           </li>
           <li className="text-[#0C1821] hover:text-white dark:text-[#CCC9DC] mx-1.5">
@@ -25,7 +27,7 @@ function NavBar() {
             <Link to='/team' >Team</Link>
           </li>
           <li className="text-[#CCC9DC] hover:bg-white dark:text-[#0C1821] mx-1.5 bg-[#CCC9DC] px-4 py-2.5 rounded-xl">
-            <Link to='/members/login' >Login</Link>
+            <Link to='/login' >Login</Link>
           </li>
         </ul>
 
@@ -47,7 +49,7 @@ function NavBar() {
               <Link to='/team' >Team</Link>
             </li>
             <li className="text-[#CCC9DC] hover:bg-white dark:text-[#0C1821] mx-1.5 bg-[#CCC9DC] px-4 py-2.5 rounded-xl">
-              <Link to='/members/login' >Login</Link>
+              <Link to='login' >Login</Link>
             </li>
           </ul>
         </div>
