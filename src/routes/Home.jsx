@@ -10,6 +10,7 @@ import Event_date from '../components/Event_date'
 import bg from '../assets/bg/bg.png'
 import heroimg from '../assets/bg/olleaguesDiscussing.png'
 import aboutbg from '../assets/bg/squigglesColorful.png'
+import coodinator from '../assets/bg/coodinator.png'
 
 import thumbup from '../assets/svg/thumbup.svg'
 import pointing from '../assets/svg/pointing.svg'
@@ -133,7 +134,7 @@ function Home() {
 						</svg>
 					</a>
 				</div>
-				
+
 				{/* gradient for hero and about us*/}
 				<div className='bg-gradient-to-b from-[#1B2A41] to-black'>
 					{/*Hero section*/}
@@ -160,7 +161,7 @@ function Home() {
 										fontWeight: 350,
 										lineHeight: '26px',
 									}}
-								>Quisque eget erat ut turpis rutrum luctus. Proin eget sem sit amet erat hendrerit tristique. Nam at leo in tellus lobortis iaculis nec eget enim. Curabitur suscipit lacus quis ante maximus, sit amet commodo sem condimentum.</p>
+								>Microsoft Student Chapter in VIT-AP is a technical club, under the wing of Microsoft Learn Student Ambassador(s), which facilitates education and knowledge exchange within the campus among students who have an interest in Microsoft technologies. </p>
 							</div>
 							{/*Hero side img*/}
 							<img className='mx-auto w-[350px] md:w-[400px] lg:w-[600px]' src={heroimg} />
@@ -181,7 +182,7 @@ function Home() {
 									lineHeight: '26px',
 								}}
 								className='work-sans md:text-[18px] lg:text-[20px] mx-auto md:w-[700px] text-[#CCC9DC] '
-							>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at gravida quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras accumsan arcu sit amet urna pretium maximus. Duis dignissim ipsum risus, sed consectetur diam elementum eu. Pellentesque finibus nunc et urna aliquam elementum. Nam ex lectus, accumsan et ex hendrerit, vehicula ultrices diam. Donec porttitor a tortor at blandit. Quisque eget erat ut turpis rutrum luctus. Proin eget sem sit amet erat hendrerit tristique. Nam at leo in tellus lobortis iaculis nec eget enim. Curabitur suscipit lacus quis ante maximus, sit amet commodo sem condimentum.</p>
+							>Microsoft Student Chapter in VIT-AP is a technical club, under the wing of Microsoft Learn Student Ambassador(s), which facilitates education and knowledge exchange within the campus among students who have an interest in Microsoft technologies. The forum organizes technology driven workshops, community hackathons and trains undergraduates and postgraduates to strengthen their critical thinking, logical reasoning, and coding skills. This is a community for students who wants to use tech to solve real-world problems with like-minded peers.</p>
 							<div className='mt-20 md:mt-24 lg:mt-32 space-y-4'>
 								<div className='md:ml-40 md:flex justify-start'>
 									<div className='text-white md:w-[360px] '>
@@ -301,8 +302,8 @@ function Home() {
 
 					}}
 					className="pt-20 bg-[#1B2A41] py-10" >
-					<div className='rounded-full w-[220px] h-[220px] md:w-[250px] md:h-[250px] bg-[#191919] mx-auto'>
-						<img />
+					<div className='overflow-hidden rounded-full w-[220px] h-[220px] md:w-[250px] md:h-[250px] bg-gradient-to-br from-[#1B2A41] to-black mx-auto'>
+						<img className='md:scale-110 pt-[28px] md:pt-[47px] mx-auto' src={coodinator} />
 					</div>
 					<div>
 						<h1 className='text-center work-sans text-white text-[32px] md:text-[42px] lg:text-[48px] '
