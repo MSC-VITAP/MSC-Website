@@ -12,7 +12,7 @@ function NavBar() {
   }
 
   return (
-    <div className='nav-sticky md-glass-effect' >
+    <div className='nav-sticky md-glass-effect' style={{zIndex: 5}} >
       <nav className="shadow flex justify-between">
         <img 
         className='h-14 md:h-16 lg:h-20 ml-6 md:ml-20 lg:ml-48 m-2 justify-start' src={logo}/>
