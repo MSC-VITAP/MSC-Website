@@ -9,9 +9,7 @@ import Event_date from '../components/Event_date'
 
 import bg from '../assets/bg/bg.png'
 import heroimg from '../assets/bg/olleaguesDiscussing.png'
-import aboutbg from '../assets/bg/squigglesColorful.png'
 
-import squigglesColorful from '../assets/bg/squigglesColorful.png'
 import freshFolkSpots from '../assets/bg/freshFolkSpots.png'
 import coodinator from '../assets/bg/coodinator.png'
 
@@ -163,10 +161,10 @@ function Home() {
 										fontWeight: 350,
 										lineHeight: '26px',
 									}}
-								>Microsoft Student Chapter in VIT-AP is a technical club, under the wing of Microsoft Learn 
-								 Student Ambassador(s), which facilitates education and knowledge exchange within the campus 
-								 among students who have an interest in Microsoft technologies. We at MSC-VITAP, aim to nurture 
-								 a community of quality engineers, all set to climb great heights as the technology grows. </p>
+								>Microsoft Student Chapter in VIT-AP is a technical club, under the wing of Microsoft Learn
+									Student Ambassador(s), which facilitates education and knowledge exchange within the campus
+									among students who have an interest in Microsoft technologies. We at MSC-VITAP, aim to nurture
+									a community of quality engineers, all set to climb great heights as the technology grows. </p>
 							</div>
 							{/*Hero side img*/}
 							<img className='mx-auto w-[350px] md:w-[400px] lg:w-[600px]' src={heroimg} />
@@ -198,12 +196,12 @@ function Home() {
 											}}
 											className='work-sans text-[40px] '
 										>Our Objectives</h1>
-											<ol style={{ listStyleType: 'circle' }}>
-										<li>Facilitate education and knowledge exchange within the campus among students who have an interest in Microsoft technologies.</li>
-										<li>Helping students to bridge the gap between academia and industry.</li>
-										<li>Creating an opportunity for young talents to exhibit in a right platform.</li>
-										<li>Launching new projects to solve real world problems.</li>	
-										<li>Guiding future engineers about Microsoft technologies to enhance their development skills</li>
+										<ol style={{ listStyleType: 'circle' }}>
+											<li>Facilitate education and knowledge exchange within the campus among students who have an interest in Microsoft technologies.</li>
+											<li>Helping students to bridge the gap between academia and industry.</li>
+											<li>Creating an opportunity for young talents to exhibit in a right platform.</li>
+											<li>Launching new projects to solve real world problems.</li>
+											<li>Guiding future engineers about Microsoft technologies to enhance their development skills</li>
 										</ol>
 									</div>
 									<img className='mt-6 mx-auto' src={thumbup} />
@@ -218,11 +216,11 @@ function Home() {
 											}}
 											className='work-sans text-[40px] '
 										>Expected Outcome</h1>
-										<ol style = {{ listStyleType: 'circle'}}>
-										<li>Make meaningful progress on the socially significant issues.</li>
-										<li>Develop technical skills, soft skills, and the connections to cherish even after becoming the alumni of VIT-AP.</li>
+										<ol style={{ listStyleType: 'circle' }}>
+											<li>Make meaningful progress on the socially significant issues.</li>
+											<li>Develop technical skills, soft skills, and the connections to cherish even after becoming the alumni of VIT-AP.</li>
 										</ol>
-										</div>
+									</div>
 								</div>
 								<div className='md:ml-40 md:flex justify-start'>
 									<div className='text-white md:w-[360px] '>
@@ -233,13 +231,13 @@ function Home() {
 											}}
 											className='work-sans text-[40px] '
 										>Our Vision</h1>
-										<ol style = {{ listStyleType: 'circle'}}>
-										<li>To carve out a community of qualtiy engineers who are capable of solving real-world problems.</li>
-										<li>To make coding a favourite topic for all and breakdown the complex ones to a simpler form.</li>
-										<li>Ensure everyone gets an opportunity to lead and be led in the community.</li>
-										<li>Eradicate the fear of coding and make it the love of the life</li>
+										<ol style={{ listStyleType: 'circle' }}>
+											<li>To carve out a community of qualtiy engineers who are capable of solving real-world problems.</li>
+											<li>To make coding a favourite topic for all and breakdown the complex ones to a simpler form.</li>
+											<li>Ensure everyone gets an opportunity to lead and be led in the community.</li>
+											<li>Eradicate the fear of coding and make it the love of the life</li>
 										</ol>
-										</div>
+									</div>
 									<img className='mt-6 mx-auto' src={vision} />
 								</div>
 							</div>
@@ -298,40 +296,43 @@ function Home() {
 
 				{/*Club coordinator section*/}
 				<div id='Coordinator'
-					style={{
-						backgroundImage: `url(${squigglesColorful})`,
-						backgroundRepeat: 'no-repeat',
-						backgroundSize: 'cover',
-						backgroundAttachment: 'fixed',
-					}}
 					className="pt-20 bg-[#1B2A41] py-10" >
-					<div className='overflow-hidden rounded-full w-[220px] h-[220px] md:w-[250px] md:h-[250px] bg-gradient-to-br from-[#1B2A41] to-black mx-auto'>
-						<img className='md:scale-110 pt-[28px] md:pt-[47px] mx-auto' src={coodinator} />
-					</div>
-					<div>
-						<h1 className='text-center work-sans text-white text-[32px] md:text-[42px] lg:text-[48px] '
-							style={{
-								textTransform: 'uppercase',
-								fontWeight: 700,
-							}}>
-							Club Coordinator
-						</h1>
-						<div className='mt-2'>
-							<p className='text-center work-sans text-[#CCC9DC] md:text-[22px] '
-								style={{
-									fontWeight: 600,
-								}}
-							>
-								Dr. S Sudheer Mangalampalli
-							</p>
-							<p className='text-center work-sans text-[#CCC9DC] md:text-[22px]'
-								style={{
-									fontWeight: 600,
-								}}
-							>
-								SCOPE
-							</p>
+					<div className='md:flex md:justify-evenly'>
+						<div>
+							<div className='overflow-hidden rounded-full w-[220px] h-[220px] md:w-[250px] md:h-[250px] bg-gradient-to-br from-[#1B2A41] to-black mx-auto'>
+								<img className='md:scale-110 pt-[28px] md:pt-[47px] mx-auto' src={coodinator} />
+							</div>
+							<div>
+								<h1 className='text-center work-sans text-white text-[32px] md:text-[42px] lg:text-[48px] '
+									style={{
+										textTransform: 'uppercase',
+										fontWeight: 700,
+									}}>
+									Club Coordinator
+								</h1>
+								<div className='mt-2'>
+									<p className='text-center work-sans text-[#CCC9DC] md:text-[22px] '
+										style={{
+											fontWeight: 600,
+										}}
+									>
+										Dr. S Sudheer Mangalampalli
+									</p>
+									<p className='text-center work-sans text-[#CCC9DC] md:text-[22px]'
+										style={{
+											fontWeight: 600,
+										}}
+									>
+										SCOPE
+									</p>
+								</div>
+							</div>
 						</div>
+						{/* Coordinator info */}
+						<div>
+							
+						</div>
+
 					</div>
 				</div>
 			</div>

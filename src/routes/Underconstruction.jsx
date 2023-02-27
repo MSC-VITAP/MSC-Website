@@ -9,7 +9,7 @@ function Underconstruction() {
         <React.Fragment>
             <div className='pt-40 pb-16 bg-gradient-to-br from-[#1B2A41] to-black '>
                 <h1 className={`h-20 heading-bold text-[34px] md:text-[64px] lg:text-[86px]`} >Page under construction</h1>
-                <img className='pt-12 mx-auto h-[250px] md:h-[400px] ' src={oops} />
+                <img className='pt-16 mx-auto h-[250px] md:h-[400px] ' src={oops} />
             </div>
         </React.Fragment>
     )
