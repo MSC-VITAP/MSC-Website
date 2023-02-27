@@ -67,7 +67,7 @@ function Footer() {
 					<div>
 						<div >
 							<iframe
-								className="pt-10 md:py-10 m-auto md:w-[400px] md:h-[300px] lg:w-[450px] lg:h-[300px] "
+								className="pt-10 md:py-10 m-auto md:w-[400px] md:h-[300px] lg:w-[550px] lg:h-[350px] "
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.590153951254!2d80.5006676!3d16.496277699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f27d40f21c55%3A0x1490eacd54859850!2sVIT-AP%20University!5e0!3m2!1sen!2sin!4v1677300389615!5m2!1sen!2sin" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 					</div>
@@ -81,15 +81,23 @@ function Footer() {
 							fontWeight: 600,
 							lineHeight: '26px',
 						}}
-					>Copyright 2023 Microsoft student club VIT AP</h1>
+					>© 2023 Microsoft Student Chapter VIT AP</h1>
 					<h1
 						className='work-sans text-white md:text-[18px] '
 						style={{
 							fontWeight: 600,
 							lineHeight: '26px',
 						}}
-					>Email at: xyz@gmail.com</h1>
+					>Email at: microsoft.chap@vitap.ac.in</h1>
 				</div>
+				<h3
+						className='work-sans text-white md:text-[14px] '
+						style={{
+							fontWeight: 600,
+							lineHeight: '26px',
+							textAlign: 'center',
+						}}
+					>Developed and Maintained by the Technical Team MSC_VITAP</h3>
 			</div>
 		</React.Fragment>
 	)
