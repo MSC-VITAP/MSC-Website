@@ -59,9 +59,6 @@ function Team() {
                                 <OwlCarousel
                                     className=''
                                     responsive={state.responsive1}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
                                     lazyLoad
                                 >
                                     {adminData.map((e) => {
@@ -82,9 +79,6 @@ function Team() {
                                 <OwlCarousel
                                     className='mx-auto'
                                     responsive={state.responsive1}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
                                     lazyLoad
                                 >
                                     {newleadData.map((e) => {
@@ -105,9 +99,6 @@ function Team() {
                                 <OwlCarousel
                                     className=''
                                     responsive={state.responsive2}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
                                     lazyLoad
                                 >
                                     {newmemberData.map((e) => {
