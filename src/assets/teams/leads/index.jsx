@@ -18,12 +18,6 @@ const leadData = [
         img: Bhavanasi_Rahul
     },
     {
-        id: 3,
-        name: 'Abhinav Ramabhadran',
-        pos: 'Event Lead',
-        img: Abhinav_Ramabhadran
-    },
-    {
         id: 4,
         name: 'Durga Sowmya Kollipara',
         pos: 'Design Lead',
@@ -34,6 +28,12 @@ const leadData = [
         name: 'Likhitha Janga',
         pos: 'PR Lead',
         img: Likhitha_Janga
+    },
+    {
+        id: 3,
+        name: 'Abhinav Ramabhadran',
+        pos: 'Event Lead',
+        img: Abhinav_Ramabhadran
     },
 ]
 
