@@ -12,12 +12,6 @@ import adminData from '../assets/teams/admin';
 import memberData from '../assets/teams/members';
 import leadData from '../assets/teams/leads';
 
-
-// shuffling array to randomize the order of people in leads and members position
-const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
-const newleadData = shuffle(leadData);
-const newmemberData = shuffle(memberData);
-
 function Team() {
     const state = {
         responsive1: {
@@ -83,7 +77,7 @@ function Team() {
                                     lazyLoad
                                     style={{alignSelf: 'center'}}
                                 >
-                                    {newleadData.map((e) => {
+                                    {leadData.map((e) => {
                                         return (
                                             <Teamscard key={e.id} name={e.name} pos={e.pos} img={e.img} />
                                         );
@@ -104,7 +98,7 @@ function Team() {
                                     lazyLoad
                                     style={{alignSelf: 'center'}}
                                 >
-                                    {newmemberData.map((e) => {
+                                    {memberData.map((e) => {
                                         return (
                                             <Teamscard key={e.id} name={e.name} pos={e.pos} img={e.img} />
                                         );
