@@ -60,6 +60,7 @@ function Team() {
                                     className=''
                                     responsive={state.responsive1}
                                     lazyLoad
+                                    style={{alignSelf: 'center'}}
                                 >
                                     {adminData.map((e) => {
                                         return (
@@ -80,6 +81,7 @@ function Team() {
                                     className='mx-auto'
                                     responsive={state.responsive1}
                                     lazyLoad
+                                    style={{alignSelf: 'center'}}
                                 >
                                     {newleadData.map((e) => {
                                         return (
@@ -100,6 +102,7 @@ function Team() {
                                     className=''
                                     responsive={state.responsive2}
                                     lazyLoad
+                                    style={{alignSelf: 'center'}}
                                 >
                                     {newmemberData.map((e) => {
                                         return (
