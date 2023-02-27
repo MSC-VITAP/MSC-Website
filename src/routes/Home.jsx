@@ -16,7 +16,7 @@ import freshFolkSpots from '../assets/bg/freshFolkSpots.png'
 import coodinator from '../assets/bg/coodinator.png'
 
 import thumbup from '../assets/svg/thumbup.svg'
-import pointing from '../assets/svg/pointing.svg'
+import vision from '../assets/svg/pointing.svg'
 import twohands from '../assets/svg/twohands.svg'
 
 import event1 from '../assets/events/abstract.png'
@@ -157,14 +157,17 @@ function Home() {
 										fontVariant: 'small-caps',
 										lineHeight: '42px',
 									}}>
-									We are Microsoft Student Club ( ■_■)</h1>
+									We are Microsoft Student Chapter ( ■_■)</h1>
 								<br />
 								<p className='text-[#CCC9DC] work-sans md:text-[18px] lg:text-[20px]'
 									style={{
 										fontWeight: 350,
 										lineHeight: '26px',
 									}}
-								>Microsoft Student Chapter in VIT-AP is a technical club, under the wing of Microsoft Learn Student Ambassador(s), which facilitates education and knowledge exchange within the campus among students who have an interest in Microsoft technologies. </p>
+								>Microsoft Student Chapter in VIT-AP is a technical club, under the wing of Microsoft Learn 
+								 Student Ambassador(s), which facilitates education and knowledge exchange within the campus 
+								 among students who have an interest in Microsoft technologies. We at MSC-VITAP, aim to nurture 
+								 a community of quality engineers, all set to climb great heights as the technology grows. </p>
 							</div>
 							{/*Hero side img*/}
 							<img className='mx-auto w-[350px] md:w-[400px] lg:w-[600px]' src={heroimg} />
@@ -195,21 +198,19 @@ function Home() {
 												fontWeight: 600
 											}}
 											className='work-sans text-[40px] '
-										>Beginning</h1>
-										<p
-											style={{
-												fontWeight: 600
-											}}
-											className='work-sans text-[22px] '
-										>12 Jan 2023</p>
-										<p
-											className='text-[#CCC9DC] md:text-[18px] lg:text-[20px]'
-										>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis quis arcu et auctor. Nulla nec feugiat enim, hendrerit gravida ligula.</p>
+										>Our Objectives</h1>
+											<ol style={{ listStyleType: 'circle' }}>
+										<li>Facilitate education and knowledge exchange within the campus among students who have an interest in Microsoft technologies.</li>
+										<li>Helping students to bridge the gap between academia and industry.</li>
+										<li>Creating an opportunity for young talents to exhibit in a right platform.</li>
+										<li>Launching new projects to solve real world problems.</li>	
+										<li>Guiding future engineers about Microsoft technologies to enhance their development skills</li>
+										</ol>
 									</div>
 									<img className='mt-6 mx-auto' src={thumbup} />
 								</div>
 								<div className='md:mr-40 md:flex justify-end'>
-									<img className='mt-6 mx-auto' src={pointing} />
+									<img className='mt-6 mx-auto' src={twohands} />
 									<div className='text-white md:w-[360px] '>
 										<h1
 											style={{
@@ -217,17 +218,12 @@ function Home() {
 												fontWeight: 600
 											}}
 											className='work-sans text-[40px] '
-										>First Event</h1>
-										<p
-											style={{
-												fontWeight: 600
-											}}
-											className='work-sans text-[22px] '
-										>12 Jan 2023</p>
-										<p
-											className='text-[#CCC9DC] md:text-[18px] lg:text-[20px]'
-										>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis quis arcu et auctor. Nulla nec feugiat enim, hendrerit gravida ligula.</p>
-									</div>
+										>Expected Outcome</h1>
+										<ol style = {{ listStyleType: 'circle'}}>
+										<li>Make meaningful progress on the socially significant issues.</li>
+										<li>Develop technical skills, soft skills, and the connections to cherish even after becoming the alumni of VIT-AP.</li>
+										</ol>
+										</div>
 								</div>
 								<div className='md:ml-40 md:flex justify-start'>
 									<div className='text-white md:w-[360px] '>
@@ -237,18 +233,15 @@ function Home() {
 												fontWeight: 600
 											}}
 											className='work-sans text-[40px] '
-										>Some Event</h1>
-										<p
-											style={{
-												fontWeight: 600
-											}}
-											className='work-sans text-[22px] '
-										>12 Jan 2023</p>
-										<p
-											className='text-[#CCC9DC] md:text-[18px] lg:text-[20px]'
-										>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis quis arcu et auctor. Nulla nec feugiat enim, hendrerit gravida ligula.</p>
-									</div>
-									<img className='mt-6 mx-auto' src={twohands} />
+										>Our Vision</h1>
+										<ol style = {{ listStyleType: 'circle'}}>
+										<li>To carve out a community of qualtiy engineers who are capable of solving real-world problems.</li>
+										<li>To make coding a favourite topic for all and breakdown the complex ones to a simpler form.</li>
+										<li>Ensure everyone gets an opportunity to lead and be led in the community.</li>
+										<li>Eradicate the fear of coding and make it the love of the life</li>
+										</ol>
+										</div>
+									<img className='mt-6 mx-auto' src={vision} />
 								</div>
 							</div>
 						</div>

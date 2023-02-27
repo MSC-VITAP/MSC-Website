@@ -21,7 +21,7 @@ function NavBar() {
             <Link to='/' >Home</Link>
           </li>
           <li className="text-[#0C1821] hover:text-white dark:text-[#CCC9DC] mx-1.5">
-            <Link to='/pageunderconstruction' >Events</Link>
+            <Link to='/pageunderconstruction' >Gallery</Link>
           </li>
           <li className="text-[#0C1821] hover:text-white dark:text-[#CCC9DC] mx-1.5">
             <Link to='/team' >Team</Link>
