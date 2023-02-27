@@ -4,10 +4,10 @@ function Teamscard(props) {
     return (
         <div 
         style={{
-            zIndex: -5
+            zIndex: 0
         }}
-        className=' inline-block'>
-            <section className='rounded-xl w-[280px] h-[340px] md:w-[280px] md:h-[360px] bg-black'
+        className='mx-auto inline-block'>
+            <section className='rounded-xl w-[250px] h-[340px] bg-black'
                 style={{
                     backgroundPositionX: -20,
                     backgroundImage: `url(${props.img})`,

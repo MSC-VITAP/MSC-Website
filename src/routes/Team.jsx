@@ -22,17 +22,21 @@ function Team() {
                 items: 2,
             },
             600: {
-                items: 3,
+                items: 2,
             },
+            950: {
+                items: 3,
+            }
+
         },
         responsive2: {
             0: {
                 items: 1,
             },
             450: {
-                items: 2,
+                items: 1,
             },
-            600: {
+            914: {
                 items: 2,
             },
         },
@@ -49,12 +53,11 @@ function Team() {
                     <div className='md:flex md:justify-between'>
                         <h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Admin team</h1>
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-20">
-                            <div className="flex flex-nowrap md:mx-8 space-x-8" >
+                            <div className="flex md:mx-8 mx-auto" >
                                 <OwlCarousel
                                     className=''
                                     responsive={state.responsive1}
                                     lazyLoad
-                                    style={{alignSelf: 'center'}}
                                 >
                                     {adminData.map((e) => {
                                         return (
@@ -70,12 +73,11 @@ function Team() {
                     <div className='md:flex md:justify-between'>
                         <h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Team leads</h1>
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar">
-                            <div className="flex flex-nowrap md:mx-8 space-x-8" >
+                            <div className="flex md:mx-8 space-x-8" >
                                 <OwlCarousel
                                     className='mx-auto'
                                     responsive={state.responsive1}
                                     lazyLoad
-                                    style={{alignSelf: 'center'}}
                                 >
                                     {leadData.map((e) => {
                                         return (
@@ -91,12 +93,11 @@ function Team() {
                     <div className='md:flex md:justify-between'>
                         <h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Team Members</h1>
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-40">
-                            <div className="flex flex-nowrap md:mx-8 space-x-8" >
+                            <div className="flex md:mx-8 space-x-8" >
                                 <OwlCarousel
                                     className=''
                                     responsive={state.responsive2}
                                     lazyLoad
-                                    style={{alignSelf: 'center'}}
                                 >
                                     {memberData.map((e) => {
                                         return (
