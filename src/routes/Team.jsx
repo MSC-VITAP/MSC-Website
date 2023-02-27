@@ -2,7 +2,6 @@ import React from 'react'
 
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
-import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 
 
 import Heading from '../components/Heading'
@@ -58,12 +57,9 @@ function Team() {
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-20">
                             <div className="flex flex-nowrap md:mx-8 space-x-8" >
                                 <OwlCarousel
-                                    className='owl-theme '
+                                    className=''
                                     responsive={state.responsive1}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
-                                    lazyLoad
+                                    dots={false}
                                 >
                                     {adminData.map((e) => {
                                         return (
@@ -81,12 +77,9 @@ function Team() {
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar">
                             <div className="flex flex-nowrap md:mx-8 space-x-8" >
                                 <OwlCarousel
-                                    className='owl-theme '
+                                    className='mx-auto'
                                     responsive={state.responsive1}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
-                                    lazyLoad
+                                    dots={false}
                                 >
                                     {newleadData.map((e) => {
                                         return (
@@ -104,12 +97,9 @@ function Team() {
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-40">
                             <div className="flex flex-nowrap md:mx-8 space-x-8" >
                                 <OwlCarousel
-                                    className='owl-theme '
+                                    className=''
                                     responsive={state.responsive2}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
-                                    lazyLoad
+                                    dots={false}
                                 >
                                     {newmemberData.map((e) => {
                                         return (
