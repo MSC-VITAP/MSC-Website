@@ -47,7 +47,7 @@ function Team() {
     return (
         <React.Fragment>
             {/*Our team section*/}
-            <div className='pt-24 pb-16 bg-gradient-to-br from-[#1B2A41] to-black '>
+            <div className='pt-24 pb-16 bg-gradient-to-br from-[#1B2A41] to-black'>
                 <Heading >OUR TEAM</Heading>
                 <LeadTwo >Meet the people behind the work (⌐■_■) </LeadTwo>
                 <div className='mt-6 md:mt-16'>
@@ -60,9 +60,6 @@ function Team() {
                                 <OwlCarousel
                                     className='owl-theme '
                                     responsive={state.responsive1}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
                                     lazyLoad
                                 >
                                     {adminData.map((e) => {
@@ -83,9 +80,6 @@ function Team() {
                                 <OwlCarousel
                                     className='owl-theme '
                                     responsive={state.responsive1}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
                                     lazyLoad
                                 >
                                     {newleadData.map((e) => {
@@ -106,9 +100,6 @@ function Team() {
                                 <OwlCarousel
                                     className='owl-theme '
                                     responsive={state.responsive2}
-                                    loop
-                                    autoplay
-                                    autoplayTimeout='2500'
                                     lazyLoad
                                 >
                                     {newmemberData.map((e) => {
