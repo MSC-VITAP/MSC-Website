@@ -10,6 +10,9 @@ import Event_date from '../components/Event_date'
 import bg from '../assets/bg/bg.png'
 import heroimg from '../assets/bg/olleaguesDiscussing.png'
 import aboutbg from '../assets/bg/squigglesColorful.png'
+
+import squigglesColorful from '../assets/bg/squigglesColorful.png'
+import freshFolkSpots from '../assets/bg/freshFolkSpots.png'
 import coodinator from '../assets/bg/coodinator.png'
 
 import thumbup from '../assets/svg/thumbup.svg'
@@ -255,7 +258,12 @@ function Home() {
 				</div>
 
 				{/*Event section*/}
-				<div id='Events' className='bg-[#0C1821] pt-24 pb-5 p-5'>
+				<div id='Events' className='bg-[#0C1821] pt-24 pb-5 p-5'
+					style={{
+						backgroundImage: `url(${freshFolkSpots})`,
+						backgroundRepeat: 'no-repeat',
+						backgroundBlendMode: 'color-burn'
+					}}>
 					<Heading >Events</Heading>
 					<LeadTwo >Explore the events which we have done (●'◡'●)</LeadTwo>
 
@@ -299,7 +307,10 @@ function Home() {
 				{/*Club coordinator section*/}
 				<div id='Coordinator'
 					style={{
-
+						backgroundImage: `url(${squigglesColorful})`,
+						backgroundRepeat: 'no-repeat',
+						backgroundSize: 'cover',
+						backgroundAttachment: 'fixed',
 					}}
 					className="pt-20 bg-[#1B2A41] py-10" >
 					<div className='overflow-hidden rounded-full w-[220px] h-[220px] md:w-[250px] md:h-[250px] bg-gradient-to-br from-[#1B2A41] to-black mx-auto'>
