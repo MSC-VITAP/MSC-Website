@@ -74,7 +74,7 @@ function Footer() {
 				</div>
 
 				{/* bottom section */}
-				<div className='text-center md:flex md:justify-around m-0 py-5 w-[100%] h-[70px] bg-black'>
+				<div className='py-5 text-center md:flex md:justify-around w-[100%] bg-black'>
 					<h1
 						className='work-sans text-white md:text-[18px] '
 						style={{
@@ -91,13 +91,13 @@ function Footer() {
 					>Email at: microsoft.chap@vitap.ac.in</h1>
 				</div>
 				<h3
-						className='work-sans text-white md:text-[14px] '
-						style={{
-							fontWeight: 600,
-							lineHeight: '26px',
-							textAlign: 'center',
-						}}
-					>Developed and Maintained by the Technical Team MSC_VITAP</h3>
+					className='work-sans text-white text-[11px] md:text-[14px] '
+					style={{
+						fontWeight: 600,
+						lineHeight: '26px',
+						textAlign: 'center',
+					}}
+				>Developed and Maintained by the Technical Team MSC_VITAP</h3>
 			</div>
 		</React.Fragment>
 	)
