@@ -34,13 +34,13 @@ const adminData = [
     {
         id: 5,
         name: 'Joshika Sree Polaku',
-        pos: 'Head of external affairs',
+        pos: 'HoEA',
         img: POLAKU_JOSHIKA_SREE
     },
     {
         id: 6,
         name: 'Ram Achalla',
-        pos: 'Head of internal affairs',
+        pos: 'HoIA',
         img: Ram_Achalla
     },
 
