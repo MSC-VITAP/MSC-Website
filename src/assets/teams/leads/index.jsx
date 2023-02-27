@@ -8,31 +8,31 @@ const leadData = [
     {
         id: 1,
         name: 'Praise Paul',
-        pos: 'Technical Lead',
+        pos: 'Technical',
         img: Praise_Paul
     },
     {
         id: 4,
-        name: 'Durga Sowmya Kollipara',
-        pos: 'Design Lead',
+        name: 'Durga Sowmya K',
+        pos: 'Design',
         img: Durga_Sowmya_Kollipara
     },
     {
         id: 2,
         name: 'Bhavanasi Rahul',
-        pos: 'Documentation Lead',
+        pos: 'Documentation',
         img: Bhavanasi_Rahul
     },
     {
         id: 5,
         name: 'Likhitha Janga',
-        pos: 'PR Lead',
+        pos: 'Public Relations',
         img: Likhitha_Janga
     },
     {
         id: 3,
         name: 'Abhinav Ramabhadran',
-        pos: 'Event Lead',
+        pos: 'Events',
         img: Abhinav_Ramabhadran
     },
 ]

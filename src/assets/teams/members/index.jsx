@@ -71,7 +71,7 @@ const memberData = [
     },
     {
         id: 9,
-        name: 'Madhava Reddy Madathala',
+        name: 'Madhava Reddy M',
         pos: 'Technical member',
         img: Madhava_Reddy_Madathala
     },
@@ -131,7 +131,7 @@ const memberData = [
     },
     {
         id: 32,
-        name: 'Karumuri Leela Vaishnavi',
+        name: 'K Leela Vaishnavi',
         pos: 'Design member',
         img: KARUMURI_LEELA_VAISHNAVI
     },
@@ -149,7 +149,7 @@ const memberData = [
     },
     {
         id: 35,
-        name: 'Akshat Rajiv Chandawar',
+        name: 'Akshat Rajiv C',
         pos: 'Design member',
         img: AKSHAT_CHANDAWAR
     },
@@ -167,7 +167,7 @@ const memberData = [
     },
     {
         id: 38,
-        name: 'Nalla Venkata Sai Krishna Anjana Jyothi',
+        name: 'N V Sai K Anjana J',
         pos: 'Design member',
         img: NALLA_VENKATA_SAI_KRISHNA_ANJANA_JYOTHI
     },
@@ -191,51 +191,51 @@ const memberData = [
     },
     {
         id: 42,
-        name: 'Jaswanth Sri Naga Babu Tikkireddy',
+        name: 'Jaswanth S N B T',
         pos: 'Design member',
         img: Jaswanth_Sri_Naga_Babu_Tikkireddy
     },
     {
         id: 23,
         name: 'Maddi Vamsi',
-        pos: 'Documentation member',
+        pos: 'Documentation',
         img: MADDI_VAMSI
     },
     
     {
         id: 24,
-        name: 'Pisipati Srirama Sai Bhavya Mani',
-        pos: 'Documentation member',
+        name: 'P S Sai Bhavya Mani',
+        pos: 'Documentation',
         img: PISIPATI_SRIRAMA_SAI_BHAVYA_MANI
     },
     {
         id: 25,
         name: 'Davidson Mahapatra',
-        pos: 'Documentation member',
+        pos: 'Documentation',
         img: DAVIDSON_MAHAPATRA
     },
     {
         id: 26,
         name: 'Bhanuvasanth Butti',
-        pos: 'Documentation member',
+        pos: 'Documentation',
         img: BHANU_VASANTH_B
     },
     {
         id: 27,
         name: 'Garika Chandu Sri',
-        pos: 'Documentation member',
+        pos: 'Documentation',
         img: GARIKA_CHANDU
     },
     {
         id: 28,
         name: 'Balaji Sabbineni',
-        pos: 'Documentation member',
+        pos: 'Documentation',
         img: SABBINENI_BALAJI
     },
     {
         id: 29,
-        name: 'Hari Haran Akhilesh Reddy G',
-        pos: 'Documentation member',
+        name: 'H H Akhilesh Reddy G',
+        pos: 'Documentation',
         img: HARI_HARAN_AKHILESH_REDDY_G
     },
     {
@@ -252,7 +252,7 @@ const memberData = [
     },
     {
         id: 44,
-        name: 'Vijayasharada Palakonda',
+        name: 'Vijayasharada P',
         pos: 'PR member',
         img: Vijayasharada_Palakonda
     },
