@@ -64,30 +64,6 @@ const memberData = [
         img: T_Manauv
     },
     {
-        id: 4,
-        name: 'Yashas Gujar',
-        pos: 'Event member',
-        img: Yashas_Gujar
-    },
-    {
-        id: 5,
-        name: 'Vishesh Srivastava',
-        pos: 'Event member',
-        img: Vishesh_Srivastava
-    },
-    {
-        id: 6,
-        name: 'Joval Varghese Alapatt',
-        pos: 'Technical member',
-        img: Joval_Varghese_Alapatt
-    },
-    {
-        id: 7,
-        name: 'B Rahul Reddy',
-        pos: 'Design member',
-        img: BHIMAVARAPU_RAHUL_REDDY
-    },
-    {
         id: 8,
         name: 'Nishita',
         pos: 'Technical member',
@@ -136,94 +112,16 @@ const memberData = [
         img: Souradeep_Dash
     },
     {
-        id: 16,
-        name: 'Pulkit Gupta',
-        pos: 'Event member',
-        img: Pulkit_Gupta
+        id: 6,
+        name: 'Joval Varghese Alapatt',
+        pos: 'Technical member',
+        img: Joval_Varghese_Alapatt
     },
     {
-        id: 17,
-        name: 'Simran Singh',
-        pos: 'Event member',
-        img: Simran_Singh
-    },
-    {
-        id: 18,
-        name: 'Lavanya gupta',
-        pos: 'Event member',
-        img: LAVANYA_GUPTA
-    },
-    {
-        id: 19,
-        name: 'Kushagra Sharma',
-        pos: 'Event member',
-        img: KUSHAGRA_SHARMA
-    },
-    {
-        id: 20,
-        name: 'Rahul bharadwaj',
-        pos: 'Event member',
-        img: Rahul_bharadwaj
-    },
-    {
-        id: 21,
-        name: 'Aditya arya',
-        pos: 'Event member',
-        img: Aditya_arya
-    },
-    {
-        id: 22,
-        name: 'Anantraj Prasad',
-        pos: 'Event member',
-        img: ANANTRAJ_PRASAD
-    },
-    {
-        id: 23,
-        name: 'Maddi Vamsi',
-        pos: 'Documentation member',
-        img: MADDI_VAMSI
-    },
-    {
-        id: 24,
-        name: 'Pisipati Srirama Sai Bhavya Mani',
-        pos: 'Documentation member',
-        img: PISIPATI_SRIRAMA_SAI_BHAVYA_MANI
-    },
-    {
-        id: 25,
-        name: 'Davidson Mahapatra',
-        pos: 'Documentation member',
-        img: DAVIDSON_MAHAPATRA
-    },
-    {
-        id: 26,
-        name: 'Bhanuvasanth Butti',
-        pos: 'Documentation member',
-        img: BHANU_VASANTH_B
-    },
-    {
-        id: 27,
-        name: 'Garika Chandu Sri',
-        pos: 'Documentation member',
-        img: GARIKA_CHANDU
-    },
-    {
-        id: 28,
-        name: 'Balaji Sabbineni',
-        pos: 'Documentation member',
-        img: SABBINENI_BALAJI
-    },
-    {
-        id: 29,
-        name: 'Hari Haran Akhilesh Reddy G',
-        pos: 'Documentation member',
-        img: HARI_HARAN_AKHILESH_REDDY_G
-    },
-    {
-        id: 30,
-        name: 'Dodda Sai Mahika',
-        pos: 'PR member',
-        img: DODDA_SAI_MAHIKA
+        id: 7,
+        name: 'B Rahul Reddy',
+        pos: 'Design member',
+        img: BHIMAVARAPU_RAHUL_REDDY
     },
     {
         id: 31,
@@ -298,6 +196,55 @@ const memberData = [
         img: Jaswanth_Sri_Naga_Babu_Tikkireddy
     },
     {
+        id: 23,
+        name: 'Maddi Vamsi',
+        pos: 'Documentation member',
+        img: MADDI_VAMSI
+    },
+    
+    {
+        id: 24,
+        name: 'Pisipati Srirama Sai Bhavya Mani',
+        pos: 'Documentation member',
+        img: PISIPATI_SRIRAMA_SAI_BHAVYA_MANI
+    },
+    {
+        id: 25,
+        name: 'Davidson Mahapatra',
+        pos: 'Documentation member',
+        img: DAVIDSON_MAHAPATRA
+    },
+    {
+        id: 26,
+        name: 'Bhanuvasanth Butti',
+        pos: 'Documentation member',
+        img: BHANU_VASANTH_B
+    },
+    {
+        id: 27,
+        name: 'Garika Chandu Sri',
+        pos: 'Documentation member',
+        img: GARIKA_CHANDU
+    },
+    {
+        id: 28,
+        name: 'Balaji Sabbineni',
+        pos: 'Documentation member',
+        img: SABBINENI_BALAJI
+    },
+    {
+        id: 29,
+        name: 'Hari Haran Akhilesh Reddy G',
+        pos: 'Documentation member',
+        img: HARI_HARAN_AKHILESH_REDDY_G
+    },
+    {
+        id: 30,
+        name: 'Dodda Sai Mahika',
+        pos: 'PR member',
+        img: DODDA_SAI_MAHIKA
+    },
+    {
         id: 43,
         name: 'Vadapalli Pranathi',
         pos: 'PR member',
@@ -308,6 +255,60 @@ const memberData = [
         name: 'Vijayasharada Palakonda',
         pos: 'PR member',
         img: Vijayasharada_Palakonda
+    },
+    {
+        id: 4,
+        name: 'Yashas Gujar',
+        pos: 'Event member',
+        img: Yashas_Gujar
+    },
+    {
+        id: 5,
+        name: 'Vishesh Srivastava',
+        pos: 'Event member',
+        img: Vishesh_Srivastava
+    },
+    {
+        id: 16,
+        name: 'Pulkit Gupta',
+        pos: 'Event member',
+        img: Pulkit_Gupta
+    },
+    {
+        id: 17,
+        name: 'Simran Singh',
+        pos: 'Event member',
+        img: Simran_Singh
+    },
+    {
+        id: 18,
+        name: 'Lavanya gupta',
+        pos: 'Event member',
+        img: LAVANYA_GUPTA
+    },
+    {
+        id: 19,
+        name: 'Kushagra Sharma',
+        pos: 'Event member',
+        img: KUSHAGRA_SHARMA
+    },
+    {
+        id: 20,
+        name: 'Rahul bharadwaj',
+        pos: 'Event member',
+        img: Rahul_bharadwaj
+    },
+    {
+        id: 21,
+        name: 'Aditya arya',
+        pos: 'Event member',
+        img: Aditya_arya
+    },
+    {
+        id: 22,
+        name: 'Anantraj Prasad',
+        pos: 'Event member',
+        img: ANANTRAJ_PRASAD
     },
 ]
 

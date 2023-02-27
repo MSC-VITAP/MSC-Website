@@ -12,16 +12,16 @@ const leadData = [
         img: Praise_Paul
     },
     {
-        id: 2,
-        name: 'Bhavanasi Rahul',
-        pos: 'Documentation Lead',
-        img: Bhavanasi_Rahul
-    },
-    {
         id: 4,
         name: 'Durga Sowmya Kollipara',
         pos: 'Design Lead',
         img: Durga_Sowmya_Kollipara
+    },
+    {
+        id: 2,
+        name: 'Bhavanasi Rahul',
+        pos: 'Documentation Lead',
+        img: Bhavanasi_Rahul
     },
     {
         id: 5,
