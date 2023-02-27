@@ -297,7 +297,7 @@ function Home() {
 				{/*Club coordinator section*/}
 				<div id='Coordinator'
 					className="pt-20 bg-[#1B2A41] py-10" >
-					<div className='md:flex md:justify-evenly'>
+					<div className='md:flex md:justify-evenly items-center'>
 						<div>
 							<div className='overflow-hidden rounded-full w-[220px] h-[220px] md:w-[250px] md:h-[250px] bg-gradient-to-br from-[#1B2A41] to-black mx-auto'>
 								<img className='md:scale-110 pt-[28px] md:pt-[47px] mx-auto' src={coodinator} />
@@ -329,8 +329,13 @@ function Home() {
 							</div>
 						</div>
 						{/* Coordinator info */}
-						<div>
-							
+						<div className='mx-auto md:mx-0 mt-5 w-[80%] md:w-[330px] lg:w-[400px] '>
+							<p className='text-[#CCC9DC] work-sans md:text-[18px] lg:text-[20px]'
+								style={{
+									fontWeight: 350,
+									lineHeight: '26px',
+								}}
+							>Experienced Assistant Professor with a demonstrated history of working in the higher education industry. Skilled in Python (Programming Language), Computer Security, Information Security, Amazon Web Services (AWS), and Cloud Computing. Strong education professional with a M.Tech focused in M.Tech computer science and Engineering from JNTU kakinada.</p>
 						</div>
 
 					</div>
