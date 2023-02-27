@@ -37,7 +37,6 @@ const handleRegister = async () => {
 			// during his enrollment via the payload parameter the enroll() method takes.
 			console.log("Associated Payload: " + JSON.stringify(userData.payload))
 			// {"whoami": 123456, "email": "john.doe@example.com"} set via enroll()
-			
 		}).catch(errCode => {
 			// handle authentication failure. Visit:
 			// https://faceio.net/integration-guide#error-codes
