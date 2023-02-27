@@ -3,7 +3,7 @@ import React from 'react'
 function Teamscard(props) {
     return (
         <div className='m-0 inline-block'>
-            <section className='rounded-xl w-[240px] h-[320px] md:w-[280px] md:h-[360px] bg-black'
+            <section className='rounded-xl w-[280px] h-[340px] md:w-[280px] md:h-[360px] bg-black'
                 style={{
                     backgroundPositionX: -20,
                     backgroundImage: `url(${props.img})`,

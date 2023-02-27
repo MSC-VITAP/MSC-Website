@@ -1,5 +1,10 @@
 import React from 'react'
 
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.min.css'
+import 'owl.carousel/dist/assets/owl.theme.default.min.css'
+
+
 import Heading from '../components/Heading'
 import LeadTwo from '../components/LeadTwo'
 import Teamscard from '../components/Teamscard';
@@ -15,6 +20,30 @@ const newleadData = shuffle(leadData);
 const newmemberData = shuffle(memberData);
 
 function Team() {
+    const state = {
+        responsive1: {
+            0: {
+                items: 1,
+            },
+            450: {
+                items: 2,
+            },
+            600: {
+                items: 3,
+            },
+        },
+        responsive2: {
+            0: {
+                items: 1,
+            },
+            450: {
+                items: 2,
+            },
+            600: {
+                items: 2,
+            },
+        },
+    }
     return (
         <React.Fragment>
             {/*Our team section*/}
@@ -28,11 +57,20 @@ function Team() {
                         <h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Admin team</h1>
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-20">
                             <div className="flex flex-nowrap md:mx-8 space-x-8" >
-                                {adminData.map((e) => {
-                                    return (
-                                        <Teamscard key={e.id} name={e.name} pos={e.pos} img={e.img} />
-                                    );
-                                })}
+                                <OwlCarousel
+                                    className='owl-theme '
+                                    responsive={state.responsive1}
+                                    loop
+                                    autoplay
+                                    autoplayTimeout='2500'
+                                    lazyLoad
+                                >
+                                    {adminData.map((e) => {
+                                        return (
+                                            <Teamscard key={e.id} name={e.name} pos={e.pos} img={e.img} />
+                                        );
+                                    })}
+                                </OwlCarousel>
                             </div>
                         </div>
                     </div>
@@ -42,11 +80,20 @@ function Team() {
                         <h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Team leads</h1>
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar">
                             <div className="flex flex-nowrap md:mx-8 space-x-8" >
-                                {newleadData.map((e) => {
-                                    return (
-                                        <Teamscard key={e.id} name={e.name} pos={e.pos} img={e.img} />
-                                    );
-                                })}
+                                <OwlCarousel
+                                    className='owl-theme '
+                                    responsive={state.responsive1}
+                                    loop
+                                    autoplay
+                                    autoplayTimeout='2500'
+                                    lazyLoad
+                                >
+                                    {newleadData.map((e) => {
+                                        return (
+                                            <Teamscard key={e.id} name={e.name} pos={e.pos} img={e.img} />
+                                        );
+                                    })}
+                                </OwlCarousel>
                             </div>
                         </div>
                     </div>
@@ -56,11 +103,20 @@ function Team() {
                         <h1 className='mx-auto text-[28px] text-center md:text-left md:text-[38px] lg:text-[64px] w-80 md:ml-20 team-head'>Team Members</h1>
                         <div className="mt-3 ml-5 flex overflow-x-scroll pb-5 md:pb-10 hide-scroll-bar md:ml-40">
                             <div className="flex flex-nowrap md:mx-8 space-x-8" >
-                                {newmemberData.map((e) => {
-                                    return (
-                                        <Teamscard key={e.id} name={e.name} pos={e.pos} img={e.img} />
-                                    );
-                                })}
+                                <OwlCarousel
+                                    className='owl-theme '
+                                    responsive={state.responsive2}
+                                    loop
+                                    autoplay
+                                    autoplayTimeout='2500'
+                                    lazyLoad
+                                >
+                                    {newmemberData.map((e) => {
+                                        return (
+                                            <Teamscard key={e.id} name={e.name} pos={e.pos} img={e.img} />
+                                        );
+                                    })}
+                                </OwlCarousel>
                             </div>
                         </div>
                     </div>
