@@ -24,7 +24,6 @@ import event2 from '../assets/events/events.png'
 import event3 from '../assets/events/people.png'
 
 
-
 function Home() {
 	return (
 		<React.Fragment>
