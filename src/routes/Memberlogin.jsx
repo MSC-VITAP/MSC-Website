@@ -3,10 +3,7 @@ import Heading from '../components/Heading'
 import login from '../assets/bg/login.png'
 import { Link } from 'react-router-dom'
 
-let faceio;
-useEffect(() => {
-	faceio = new faceIO("fioa414d");
-}, []);
+let faceio = new faceIO("fioa414d");
 const handleRegister = async () => {
 	try {
 		let response = await faceio.enroll({
