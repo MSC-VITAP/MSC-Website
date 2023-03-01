@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Heading from '../components/Heading'
 import login from '../assets/bg/login.png'
 import { Link } from 'react-router-dom'
 
-let faceio = new faceIO("fioa414d");
+let faceio;
+useEffect(() => {
+	faceio = new faceIO("fioa414d");
+}, []);
 const handleRegister = async () => {
 	try {
 		let response = await faceio.enroll({
@@ -63,6 +66,13 @@ function Memberlogin() {
 					<form className='mt-5' action='' method='POST'>
 						<div className=' md:bg-[#324A5F] member-login focus:opacity-100 hover:opacity-100 p-3 md:p-7 lg:p-10 space-y-4 text-center md:text-left '>
 							<div>
+								<div>
+									<button onClick={handleRegister}
+										className="hover:shadow-form rounded-2xl bg-[#1B2A41] py-2 px-5 text-base font-semibold text-white outline-none"
+									>
+										<Link to='' >Register</Link>
+									</button>
+								</div>
 								<div>
 									<button onClick={authenticateUser}
 										className="hover:shadow-form rounded-2xl bg-[#1B2A41] py-2 px-5 text-base font-semibold text-white outline-none"
