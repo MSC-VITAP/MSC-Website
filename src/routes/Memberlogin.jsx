@@ -5,52 +5,52 @@ import { Link } from 'react-router-dom'
 
 let faceio = new faceIO("fioa414d");
 const handleRegister = async () => {
-    try {
-      let response = await faceio.enroll({
-        locale: "auto",
-        payload: {
-          email: "example@gmail.com",
-        },
-      });
+	try {
+		let response = await faceio.enroll({
+			locale: "auto",
+			payload: {
+				email: "example@gmail.com",
+			},
+		});
 
-      console.log(` Unique Facial ID: ${response.facialId}
+		console.log(` Unique Facial ID: ${response.facialId}
       Enrollment Date: ${response.timestamp}
       Gender: ${response.details.gender}
       Age Approximation: ${response.details.age}`);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  function authenticateUser() {
-		// Start the facial authentication process (Identify a previously enrolled user)
-		faceio.authenticate({
-			"locale": "auto" // Default user locale
-		}).then(userData => {
-			console.log("Success, user recognized")
-			// Grab the facial ID linked to this particular user which will be same
-			// for each of his successful future authentication. FACEIO recommend
-			// that your rely on this ID if you plan to uniquely identify
-			// all enrolled users on your backend for example.
-			console.log("Linked facial Id: " + userData.facialId)
-			// Grab the arbitrary data you have already linked (if any) to this particular user
-			// during his enrollment via the payload parameter the enroll() method takes.
-			console.log("Associated Payload: " + JSON.stringify(userData.payload))
-			// {"whoami": 123456, "email": "john.doe@example.com"} set via enroll()
-		}).catch(errCode => {
-			// handle authentication failure. Visit:
-			// https://faceio.net/integration-guide#error-codes
-			// for the list of all possible error codes
-			handleError(errCode);
-			
-			// If you want to restart the session again without refreshing the current TAB. Just call:
-			faceio.restartSession();
-			// restartSession() let you authenticate the same user again (in case of failure) 
-			// without refreshing the entire page.
-			// restartSession() is available starting from the PRO plan and up, so think of upgrading your app
-			// for user usability.
-		});
+	} catch (error) {
+		console.log(error);
 	}
+};
+
+function authenticateUser() {
+	// Start the facial authentication process (Identify a previously enrolled user)
+	faceio.authenticate({
+		"locale": "auto" // Default user locale
+	}).then(userData => {
+		console.log("Success, user recognized")
+		// Grab the facial ID linked to this particular user which will be same
+		// for each of his successful future authentication. FACEIO recommend
+		// that your rely on this ID if you plan to uniquely identify
+		// all enrolled users on your backend for example.
+		console.log("Linked facial Id: " + userData.facialId)
+		// Grab the arbitrary data you have already linked (if any) to this particular user
+		// during his enrollment via the payload parameter the enroll() method takes.
+		console.log("Associated Payload: " + JSON.stringify(userData.payload))
+		// {"whoami": 123456, "email": "john.doe@example.com"} set via enroll()
+	}).catch(errCode => {
+		// handle authentication failure. Visit:
+		// https://faceio.net/integration-guide#error-codes
+		// for the list of all possible error codes
+		handleError(errCode);
+
+		// If you want to restart the session again without refreshing the current TAB. Just call:
+		faceio.restartSession();
+		// restartSession() let you authenticate the same user again (in case of failure) 
+		// without refreshing the entire page.
+		// restartSession() is available starting from the PRO plan and up, so think of upgrading your app
+		// for user usability.
+	});
+}
 function Memberlogin() {
 	return (
 		<React.Fragment>
