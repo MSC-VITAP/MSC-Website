@@ -86,4 +86,4 @@ function Memberlogin() {
 	)
 }
 
-export default Memberlogin
+export default Memberlogin;
