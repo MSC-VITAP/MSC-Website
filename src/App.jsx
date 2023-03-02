@@ -23,11 +23,13 @@ function App() {
           <Route path='/login' element={<Memberlogin />} />
           <Route path='/404' element={<Notfound />} />
           <Route path='*' element={<Navigate to='/404' />} />
+          <Route path='/faceLogin' element={<faceLogin />} />
         </Routes>
         <Footer />
       </div>
     </BrowserRouter>
   )
+  
 }
 
 
