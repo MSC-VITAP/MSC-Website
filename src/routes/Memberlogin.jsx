@@ -62,19 +62,55 @@ function Memberlogin() {
 					</div>
 					<form className='mt-5' action='' method='POST'>
 						<div className=' md:bg-[#324A5F] member-login focus:opacity-100 hover:opacity-100 p-3 md:p-7 lg:p-10 space-y-4 text-center md:text-left '>
-							<div className='py-2'>
-								<div>
+							<div>
+								<input
+									style={{
+										fontWeight: 600,
+									}}
+									type="text"
+									name="username"
+									id="username"
+									placeholder="Username"
+									className="work-sans rounded-md border border-white bg-[#CCC9DC] py-2 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
+								/>
+							</div>
+							<div>
+								<input
+									style={{
+										fontWeight: 600,
+									}}
+									type="password"
+									name="password"
+									id="password"
+									placeholder="Password"
+									className="work-sans rounded-md border border-white bg-[#CCC9DC] py-2 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
+								/>
+							</div>
+							<div>
+								<input
+									style={{
+										fontWeight: 600,
+									}}
+									type="password"
+									name="confirmpassword"
+									id="confirmpassword"
+									placeholder="Confirm password"
+									className="work-sans rounded-md border border-white bg-[#CCC9DC] py-2 px-6 text-base text-[#0C1821] outline-none focus:border-[#0C1821] focus:shadow-md"
+								/>
+							</div>
+							<div className=''>
+								{/* <div>
 									<button onClick={handleRegister}
 										className="hover:shadow-form rounded-2xl bg-[#1B2A41] py-2 px-5 text-base font-semibold text-white outline-none"
 									>
 										<Link to='' >Register</Link>
 									</button>
-								</div>
+								</div> */}
 								<div>
-									<button onClick={authenticateUser}
+									<button
 										className="hover:shadow-form rounded-2xl bg-[#1B2A41] py-2 px-5 text-base font-semibold text-white outline-none"
 									>
-										<Link to='' >Login</Link>
+										<Link to='/pageunderconstruction' >Login</Link>
 									</button>
 								</div>
 							</div>
