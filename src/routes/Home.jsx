@@ -187,7 +187,7 @@ function Home() {
 								className='work-sans md:text-[18px] lg:text-[20px] mx-auto md:w-[700px] text-[#CCC9DC] '
 							>Microsoft Student Chapter in VIT-AP is a technical club, under the wing of Microsoft Learn Student Ambassador(s), which facilitates education and knowledge exchange within the campus among students who have an interest in Microsoft technologies. The forum organizes technology driven workshops, community hackathons and trains undergraduates and postgraduates to strengthen their critical thinking, logical reasoning, and coding skills. This is a community for students who wants to use tech to solve real-world problems with like-minded peers.</p>
 							<div className='mt-20 md:mt-24 lg:mt-32 space-y-4'>
-								<div className='md:ml-40 md:flex justify-start'>
+								<div className='md:ml-40 md:flex md:justify-start items-center'>
 									<div className='text-white md:w-[360px] '>
 										<h1
 											style={{
@@ -204,9 +204,9 @@ function Home() {
 											<li>Guiding future engineers about Microsoft technologies to enhance their development skills</li>
 										</ol>
 									</div>
-									<img className='mt-6 mx-auto' src={thumbup} />
+									<img className='w-[200px] h-[200px] md:w-[250px] md:h-[250px] mt-6 mx-auto' src={thumbup} />
 								</div>
-								<div className='md:mr-40 md:flex justify-end'>
+								<div className='md:mr-40 md:flex md:justify-end items-center'>
 									<img className='mt-6 mx-auto' src={twohands} />
 									<div className='text-white md:w-[360px] '>
 										<h1
@@ -222,7 +222,7 @@ function Home() {
 										</ol>
 									</div>
 								</div>
-								<div className='md:ml-40 md:flex justify-start'>
+								<div className='md:ml-40 md:flex md:justify-start items-center'>
 									<div className='text-white md:w-[360px] '>
 										<h1
 											style={{
@@ -238,7 +238,7 @@ function Home() {
 											<li>Eradicate the fear of coding and make it the love of the life</li>
 										</ol>
 									</div>
-									<img className='mt-6 mx-auto' src={vision} />
+									<img className='w-[250px] h-[140px] md:w-[400px] md:h-[220px] mt-6 mx-auto' src={vision} />
 								</div>
 							</div>
 						</div>
