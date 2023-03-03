@@ -7,19 +7,19 @@ import Event_head from '../components/Event_head'
 import Event_date from '../components/Event_date'
 
 
-import bg from '../assets/bg/bg.png'
-import heroimg from '../assets/bg/olleaguesDiscussing.png'
+import bg from '../assets/bg/bg.webp'
+import heroimg from '../assets/bg/olleaguesDiscussing.webp'
 
-import freshFolkSpots from '../assets/bg/freshFolkSpots.png'
-import coodinator from '../assets/bg/coodinator.png'
+import freshFolkSpots from '../assets/bg/freshFolkSpots.webp'
+import coodinator from '../assets/bg/coodinator.webp'
 
-import thumbup from '../assets/svg/thumbup.svg'
-import vision from '../assets/svg/pointing.svg'
-import twohands from '../assets/svg/twohands.svg'
+import thumbup from '../assets/bg/thumbup.webp'
+import vision from '../assets/bg/pointing.webp'
+import twohands from '../assets/bg/twohands.webp'
 
-import event1 from '../assets/events/abstract.png'
-import event2 from '../assets/events/events.png'
-import event3 from '../assets/events/people.png'
+import event1 from '../assets/events/abstract.webp'
+import event2 from '../assets/events/events.webp'
+import event3 from '../assets/events/people.webp'
 
 
 function Home() {

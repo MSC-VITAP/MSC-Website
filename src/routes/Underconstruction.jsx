@@ -2,7 +2,7 @@ import React from 'react'
 
 import Heading from '../components/Heading'
 
-import oops from '../assets/bg/oops.png'
+import oops from '../assets/bg/oops.webp'
 
 function Underconstruction() {
     return (

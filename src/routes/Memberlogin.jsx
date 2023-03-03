@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Heading from '../components/Heading'
-import login from '../assets/bg/login.png'
+import login from '../assets/bg/login.webp'
 import { Link } from 'react-router-dom'
 
 // let faceio = new faceIO("fioa414d");

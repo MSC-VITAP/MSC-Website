@@ -1,9 +1,8 @@
 import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import logo from '../assets/svg/logoNoFill.svg'
+import logo from '../assets/bg/logoNoFill.webp'
 
-import useScroll from '../hooks/useScroll'
 
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
